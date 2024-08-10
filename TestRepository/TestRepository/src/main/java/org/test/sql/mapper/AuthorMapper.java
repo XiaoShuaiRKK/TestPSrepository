@@ -1,4 +1,4 @@
-package org.test.sql.DAO;
+package org.test.sql.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
