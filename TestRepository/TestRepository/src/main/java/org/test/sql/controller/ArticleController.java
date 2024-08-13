@@ -1,9 +1,6 @@
 package org.test.sql.controller;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.test.sql.entity.Article;
 import org.test.sql.entity.Result;
 import org.test.sql.services.ArticleService;
@@ -24,5 +21,12 @@ public class ArticleController {
     public Result<Boolean> saveBatch(@RequestBody List<Article> articles){
         boolean result = articleService.saveBatch(articles);
         return Result.isSuccess(result,result);
+    }
+
+    @GetMapping("/search")
+    public Result<List<Article>> searchArticles(@RequestParam("content") String content,
+                                                @RequestParam(value = "pageNum",defaultValue = "1")Integer pageNum,
+                                                @RequestParam(value = "pageSize",defaultValue = "10")Integer pageSize){
+        return Result.isSuccess(articleService.findArticlesByContent(content,pageNum,pageSize).getRecords(),true);
     }
 }

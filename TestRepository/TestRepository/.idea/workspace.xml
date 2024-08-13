@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4fc767d8-08fd-40fe-80fd-393869f8af52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/entity/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/services/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/config/MybatisPlusConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/sql/DAO/ArticleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/mapper/ArticleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/sql/DAO/AuthorMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/mapper/AuthorMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/sql/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/sql/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/test/sql/services/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/services/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/sql/services/Impl/ArticleServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/test/sql/services/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/test/sql/services/impl/ArticleServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +105,7 @@
       <workItem from="1723178476058" duration="1394000" />
       <workItem from="1723268017042" duration="3387000" />
       <workItem from="1723278928505" duration="14087000" />
+      <workItem from="1723563567439" duration="3712000" />
     </task>
     <servers />
   </component>
